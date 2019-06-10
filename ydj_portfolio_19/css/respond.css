@@ -1,0 +1,83 @@
+@media screen and (max-width:1550px) {
+
+/*    프로필*/
+    .probox2 td{font-size:16px;}
+    .probox2 th{padding: 12px 0;}
+    .probox2 tr:first-child th,.probox2 tr:first-child td{padding: 0 0 12px;}
+    
+    .section2>div{margin: 0 auto;width: 800px;height: 600px;}
+    .section2>div>.fl,.section2>div>.fr{height: 600px;}
+    .probox1{top:85px;width: 340px;height: 170px;}
+    .probox1>p{top:120px;}
+    .probox1>p,probox1>p>span{font-size: 40px;}
+    .probox3 td{padding: 8px 0;font-size:16px;}
+    
+    
+    .probox4 th {padding: 8px 0;} 
+    
+    .probox4 td>div{width: 200px;height: 15px;margin: 15px 0 0 10px;background-color: #819565;}
+    
+    .probox4 td>div.w180{width: 180px;}
+    .probox4 td>div.w195{width: 195px;}
+    .probox1>p>span,.probox3 table th,.probox4 table tr:first-child th,.work>p{font-size: 40px;}
+    
+/*    갤러리*/
+    .section3>div>.container{top: 705px;}
+    .gallery {max-width: 1170px;}
+    
+    
+    .slider_box{top:620px;width: 800px;margin: 0 auto;}
+    .slider_box_m{top: 780px;width: 800px;margin: 0 auto;}
+    .flexslider .flex-control-nav{top: 640px;}
+    .flex-control-nav {top: 300px;}
+    
+    .flexslider_m .flex-control-nav{top: 300px;}
+    
+    
+}
+
+@media screen and (max-width:1240px) {
+    
+    
+        /*    갤러리*/
+    .section3>div>.container{top: 600px;}
+    .gallery {    margin: 0 70px 0 110px;width: 900px;}
+
+    
+    
+}
+
+@media screen and (max-width:1024px) {
+    
+    
+        /*    갤러리*/
+    .section3>div>.container{top: 450px;}
+    .gallery {    max-width: 700px;margin: 0 20px 0 60px;}
+    
+    
+}
+
+@media screen and (max-width:990px) {}
+
+@media screen and (max-width:767px) {
+    .section1 {background-image: url('../img/m_yoon_intro.jpg');background-size: 100% 100%;}
+     .section5 {background-image: url('../img/yoon_outro_m.png');background-size: 100% 100%;}
+    
+    .container, .pop_cont {
+        width: 537px;
+    }
+
+    div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, form, fieldset, p, button, pre {
+        font-size: 13px;
+    }
+    
+}
+
+@media screen and (max-width:567px) {
+    
+    
+     .section2>div>.fl{height: 600px;    margin: 0 80px 0 100px;}
+    .section2>div>.fr{display: none;}
+}
+
+/*@media screen and (max-width:356px) {}*/
